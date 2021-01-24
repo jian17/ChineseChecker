@@ -157,15 +157,24 @@ int main()
 
         if(playerSelect_case == 0)
         {
-            n = {1,2,4,5};
+          n[0] = 1;
+          n[1] = 2;
+          n[2] = 4;
+          n[3] = 5;
         }
         else if(playerSelect_case == 1)
         {
-            n = {0,2,3,5};
+          n[0] = 0;
+          n[1] = 2;
+          n[2] = 3;
+          n[3] = 5;
         }
         else if(playerSelect_case == 2)
         {
-            n = {0,1,3,4};
+          n[0] = 0;
+          n[1] = 1;
+          n[2] = 3;
+          n[3] = 4;
         }
 
         for(int i=0; i<4; i++)
